@@ -22,7 +22,7 @@ function FooterBot() {
                   <a href="/order/mobile-legends" className="text-gray-600 no-underline hover:underline">Mobile Legends</a>
                 </div>
                 <div className="mb-4">
-                  <a href="/order/free-fire" className="text-gray-600 no-underline hover:underline">Free Fire</a>
+                  <a href="/order/valorant" className="text-gray-600 no-underline hover:underline">Valorant</a>
                 </div>
               </div>
             </div>
