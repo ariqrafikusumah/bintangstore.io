@@ -209,7 +209,7 @@ export default function Freefire() {
                                 <div className='border border-gray-200 rounded-xl shadow-lg bg-white xl:mt-0 lg:mt-0 md:mt-5 xs:mt-5 xss:mt-5'>
                                     <div className='xl:px-5 xl:py-5 lg:px-5 lg:py-5 md:px-5 md:py-5 sm:px-5 sm:py-5 xs:px-2 xs:py-2 mb-3'>
                                         <div className='font-bold text-lg'>
-                                            <span className='border border-gray-500 bg-gray-500 px-2 text-white rounded-full'>1</span>&nbsp;Masukkan User ID
+                                            <span className='border border-gray-500 bg-gray-500 px-2 text-white rounded-full'>1</span>&nbsp;Masukkan Riot ID Anda
                                         </div>
                                         <div className='xl:grid xl:grid-cols-1 lg:grid-cols-1 lg:grid md:grid-cols-2 md:grid sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 xss:grid xss:grid-cols-1 gap-x-8 gap-y-4 px-2 py-2 mb-2'>
                                             <div className="relative">
@@ -221,14 +221,14 @@ export default function Freefire() {
                                                     </>
                                                 ))}
                                                 <input type="number" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="10" value={user_id} onChange={handleChangeUser_id} required />
-                                                <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan User ID</label>
+                                                <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan Riot ID Anda</label>
                                                 {errorUser_id && <div className="errorUser_id text-sm text-red-500 sm:mb-3">{errorUser_id}</div>}
                                             </div>
                                         </div>
                                         <div>
                                             <div className='px-2'>
                                                 <div className=' font-thin italic text-justify text-xs mb-2'>
-                                                    Untuk menemukan ID Anda, klik pada ikon karakter. User ID tercantum di bawah nama karakter Anda. Contoh: '5363266446'.
+                                                    Untuk menemukan Riot ID Anda, buka halaman profil akun dan salin Riot ID+Tag menggunakan tombol yang tersedia disamping Riot ID. (Contoh: Westbourne#SEA)
                                                 </div>
                                                 <Button className="flex gap-2 mt-3 text-white bg-gradient-to-br from-gray-600 to-gray-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" onClick={handleShow}>
                                                     Petunjuk
@@ -382,7 +382,7 @@ export default function Freefire() {
                                 <div className='border border-gray-200 rounded-xl shadow-lg bg-white xl:mt-0 lg:mt-0 md:mt-5 xs:mt-5 xss:mt-5'>
                                     <div className='xl:px-5 xl:py-5 lg:px-5 lg:py-5 md:px-5 md:py-5 sm:px-5 sm:py-5 xs:px-2 xs:py-2 mb-3'>
                                         <div className='font-bold text-lg'>
-                                            <span className='border border-gray-500 bg-gray-500 px-2 text-white rounded-full'>1</span>&nbsp;Masukkan User ID
+                                            <span className='border border-gray-500 bg-gray-500 px-2 text-white rounded-full'>1</span>&nbsp;Masukkan Riot ID Anda
                                         </div>
                                         <div className='xl:grid xl:grid-cols-1 lg:grid-cols-1 lg:grid md:grid-cols-2 md:grid sm:grid sm:grid-cols-1 xs:grid xs:grid-cols-1 xss:grid xss:grid-cols-1 gap-x-8 gap-y-4 px-2 py-2 mb-2'>
                                             <div className="relative">
@@ -394,14 +394,14 @@ export default function Freefire() {
                                                     </>
                                                 ))}
                                                 <input type="number" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="10" value={user_id} onChange={handleChangeUser_id} required />
-                                                <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan User ID</label>
+                                                <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan Riot ID Anda</label>
                                                 {errorUser_id && <div className="errorUser_id text-sm text-red-500 sm:mb-3">{errorUser_id}</div>}
                                             </div>
                                         </div>
                                         <div>
                                             <div className='px-2'>
                                                 <div className=' font-thin italic text-justify text-xs mb-2'>
-                                                    Untuk menemukan ID Anda, klik pada ikon karakter. User ID tercantum di bawah nama karakter Anda. Contoh: '5363266446'.
+                                                    Untuk menemukan Riot ID Anda, buka halaman profil akun dan salin Riot ID+Tag menggunakan tombol yang tersedia disamping Riot ID. (Contoh: Westbourne#SEA)
                                                 </div>
                                                 <Button className="flex gap-2 mt-3 text-white bg-gradient-to-br from-gray-600 to-gray-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2" onClick={handleShow}>
                                                     Petunjuk
