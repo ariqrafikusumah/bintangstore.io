@@ -220,7 +220,7 @@ export default function Freefire() {
                                                         </div>
                                                     </>
                                                 ))}
-                                                <input type="text" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="10" value={user_id} onChange={handleChangeUser_id} required />
+                                                <input type="text" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="24" value={user_id} onChange={handleChangeUser_id} required />
                                                 <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan Riot ID Anda</label>
                                                 {errorUser_id && <div className="errorUser_id text-sm text-red-500 sm:mb-3">{errorUser_id}</div>}
                                             </div>
@@ -393,7 +393,7 @@ export default function Freefire() {
                                                         </div>
                                                     </>
                                                 ))}
-                                                <input type="text" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="10" value={user_id} onChange={handleChangeUser_id} required />
+                                                <input type="text" id="user_id" name='user_id' className="block border hover:ring-gray-500 hover:border-gray-500 px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-gray-600 peer" placeholder=" " maxLength="24" value={user_id} onChange={handleChangeUser_id} required />
                                                 <label htmlFor="user_id" className="absolute text-sm text-gray-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Masukkan Riot ID Anda</label>
                                                 {errorUser_id && <div className="errorUser_id text-sm text-red-500 sm:mb-3">{errorUser_id}</div>}
                                             </div>
